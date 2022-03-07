@@ -24,7 +24,7 @@ func main() { //(4)
 	//O \n em "%v %v\n" serve para pular uma linha;
 	//Assim fmt.Printf("%v %v\n", x, y) mostra os valores atribuidos a x e y e pulará uma linha;
 	//Enquanto fmt.Printf(z) mostrará apenas o valor contido da variável z; 
-	fmt.Printf("%v %v\n", x, y)
+	fmt.Printf("%s %s \n", x, y)
 	fmt.Printf(z)
 }
 
